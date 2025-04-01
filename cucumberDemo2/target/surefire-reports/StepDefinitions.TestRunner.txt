@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.40 s <<< FAILURE! -- in StepDefinitions.TestRunner
+feature to test google search functionality.Validate google search is working -- Time elapsed: 14.49 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at StepDefinitions.GoogleSearchSteps.user_is_on_google_search(GoogleSearchSteps.java:26)
+	at ✽.user is on google search(file:///C:/Users/sujit/IdeaProjects/cucumberDemo2/src/test/resources/Features/googlesearch.feature:6)
+

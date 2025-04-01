@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.886" tests="2" skipped="0" failures="1" errors="0" timestamp="2025-03-11T11:16:26.472581300Z">
+<testcase classname="feature to test google search functionality" name="Validate google search is working" time="14.204">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at StepDefinitions.GoogleSearchSteps.user_is_on_google_search(GoogleSearchSteps.java:26)
+	at ✽.user is on google search(file:///C:/Users/sujit/IdeaProjects/cucumberDemo2/src/test/resources/Features/googlesearch.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on google search................................................failed
+When user enter a text in search box........................................skipped
+And hits enter..............................................................skipped
+Then user navigated to search results.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="check login is successful with valid credentials" time="0.033">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the homepage......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
